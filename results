@@ -1,0 +1,13 @@
+$ python -u simple-demo.py 
+
+DISPLAY = :0.0
+Web Portal Access Timings...
+** Window Size {u'width': 1920, u'height': 1024}
+open_homepage function took 1607.122 ms
+wait_for_navbar_and_search function took 1299.688 ms
+wait_for_results_and_select function took 1626.173 ms
+*** STATS ***
+	function min avg max total
+	open_homepage 1607.12 1607.12 1607.12 1607.12
+	wait_for_navbar_and_search 1299.69 1299.69 1299.69 1299.69
+	wait_for_results_and_select 1626.17 1626.17 1626.17 1626.17
